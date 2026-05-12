@@ -26,7 +26,7 @@ int main() {
 
     // Determine the grade using if-else if ladder
     if (percentage >= 90) {
-        grade = 'A';
+        grade = 'A' || 'a';
     } else if (percentage >= 80) {
         grade = 'B';
     } else if (percentage >= 70) {
